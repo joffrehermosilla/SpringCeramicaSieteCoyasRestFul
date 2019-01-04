@@ -38,6 +38,7 @@ public Employee getEmployee(@PathVariable int employeeId) {
 public Employee saveEmployee(@RequestBody Employee employee) {
 	return employeeService.save(employee);
 }
-
+//localhost:8085/ceramicasietecoyas-service/swagger-ui.html
+	// localhost:8085/ceramicasietecoyas-service/employees
 
 }
